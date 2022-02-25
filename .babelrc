@@ -1,0 +1,14 @@
+{"plugins":[
+    ["module-resolver",{
+        "root":[],
+        "alias":{
+            "primaryStyles":"./src/Config/style",
+            "primaryTheme": "./src/Config/style/theme",
+            "Server":"./src/Config/Server",
+            "Api":"./src/Config/Service/API",
+            "DAO/Auth":"./src/DAO/Auth",
+            "Store":"./src/model/Store",
+            "FormTextItem":"./src/Utils/Components/Form/TextItem"
+        }
+    }]
+]}
